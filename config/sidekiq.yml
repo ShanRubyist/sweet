@@ -1,0 +1,7 @@
+:max_retries: 3
+:timeout: 60
+:queues:
+  - [ critical, 10 ]
+  - [ high, 5 ]
+  - [ default,2 ]
+  - [ low, 1 ]
